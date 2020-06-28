@@ -10,7 +10,7 @@ def onclick2(counter)
   counter.set(counter.get()-1)
   n2.config(text = counter)
   else:
-        print("a")
+        print("counter value should be positive")
 def onclick3(counter)
     counter=0
     n3.config(text = counter)
